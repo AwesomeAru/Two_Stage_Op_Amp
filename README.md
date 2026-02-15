@@ -17,6 +17,7 @@ To design a two stage opamp on Cadence Virtuoso at 90nm technology node for the 
 ![op+amp_img](/images/schematic.png)
 
 #### Design Specifications :
+(derived after design calculations)
 - L = 300nm
 - $C_C$ = 800fF
 - $I_5$ = 20$\mu$A
