@@ -10,5 +10,8 @@ To design a two stage opamp on Cadence Virtuoso at 90nm technology node for the 
 - $ICMR^+$ = 1.6V
 - $ICMR^-$ = 0.8V
 - $C_L$ = 2pF
-- $V_dd$ = 1.8V
+- $V_{dd}$ = 1.8V
 - Process = 90nm
+
+#### Schematic 
+![op+amp_img](/images/schematic.png)
