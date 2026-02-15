@@ -28,4 +28,18 @@ To design a two stage opamp on Cadence Virtuoso at 90nm technology node for the 
 
 #### Test Schematic :
 ![test_img](/images/test.png)
-This circuit was used to calculate model paramters for nmos and pmos ($\mu_n$, $\mu_p$, $t_{ox,n}$, $t_{ox,p}$) and device parameters ($V_{t1, min}$, $V_{t1, max}$, $V_{t3, max}$)
+This circuit was used to calculate model paramters for nmos and pmos ($\mu_n$, $\mu_p$, $t_{ox,n}$, $t_{ox,p}$) and 
+
+device parameters ($V_{t1, min}$, $V_{t1, max}$, $V_{t3, max}$)
+
+#### Output :
+- ![bode_1.6V_img](/images/90nm_bode_plot_1_6V.png)
+
+The output bode plot showing output AC gain and phase. 
+
+The gain obtained for $ICMR^+$ is 52.97dB
+
+The gain obtained for $ICMR^-$ is 56.74dB
+  
+- ![bode_1.6V_img](/images/90nm_bode_plot_800mV.png)
+
